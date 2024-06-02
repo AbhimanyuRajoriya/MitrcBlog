@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+:root{
+    --Playfair:'Playfair display', sans-Serif;
+    --Quicksand:'Quicksand', sans-serif;
+    --dark: #3d3c39;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: var(--Quicksand);
+}
+body{
+    line-height: 1.4;
+    color: var(--dark);
+}
+img{
+    width: 100%;
+    display: block;
+}
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 1.2rem;
+}
+
+header{
+    min-height: 100vh;
+    background: linear-gradient(rgb(250, 241, 220), rgb(250, 241, 220)), url(mi.jpg) center/cover no-repeat fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+}
+.navi{
+    background: rgb(249, 96, 96);
+    padding: 1.2rem;
+}
+.brd{
+    color: #fff;
+    font-weight: bolder;
+    font-size: 2rem;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-family: var(--Playfair);
+    letter-spacing: 10px;
+    transition: opacity 0.5s ease;
+}
+
+.brd:hover{
+    opacity: 0.7;
+}
+
+.navnav{
+    padding: 0.8rem 0 0.2rem 0;
+    text-align: center;
+}
+.navnav a{
+    text-transform: uppercase;
+    font-family: var(--Roboto);
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0.4rem 0.1rem;
+    letter-spacing: 3px;
+    transition: opacity 0.5s ease;
+}
+
+.navnav a:hover{
+    opacity: 0.7;
+}
+
+p{
+    padding-right: 10px;
+    padding-left: 2px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.top-left {
+    position: absolute;
+    top: 0px;
+    left: 300px;
+}
+
+.contai {
+    position:absolute;
+    color: white;
+}
+
+.linku:link {
+    color: red;
+}
+  
+.linku:visited {
+    color: rgb(137, 0, 125);
+}
+  
+.linku:hover {
+    color: hotpink;
+}
+
+.linku:active {
+    color: blue;
+}
+
+.woosh{
+    border-radius: 80px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.grid-container_2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.grid-child-green:hover{
+    transform: scale(1.04);
+    transition: 0.25s ease;
+}
+
+.grid-child-purple:hover{
+    transform: scale(1.04);
+    transition: 0.25s ease;
+}
+
+.grid-child-blue:hover{
+    transform: scale(1.04);
+    transition: 0.25s ease;
+}
+
+.loki:link {
+    color: red;
+}
+  
+.loki:visited {
+    color: rgb(182, 133, 11);
+}
+  
+.loki:hover {
+    color: rgb(131, 73, 1);
+}
+
+.loki:active {
+    color: rgb(255, 183, 0);
+}
+
+.grid-container_3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 5px;
+    width: 15px;
+    height: 15px;
+    text-align:end;
+    text-decoration: none;
+    margin: 5px 100px;
+    border-radius: 100%;
+    transition: 0.5s ease;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+
+  .fa-twitter {
+    background: rgb(85, 172, 238);
+    color: white;
+  }
+
+  .fa-linkedin {
+    background: rgb(0, 123, 181);
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: rgb(241, 62, 161);
+    color: white;
+  }
+
+  .fa-youtube {
+    background: rgb(187, 0, 0);
+    color: white;
+  }
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+.jjk{
+    max-width: fit-content;
+    margin: auto;
+    background-color: rgb(250, 240, 220);
+    overflow: auto;
+}
+
+.aot{
+    margin: 5px;
+    float: left;
+    width: 490px;
+}
+
+.aot img{
+    width: 100%;
+    height: auto;
+    transition: 1s ease;
+    border-radius: 25px;
+}
+
+.aot:hover{
+    transform: scale(1.02);
+    transition: 0.4s ease;
+}
+
+.tenkai{
+    padding: 15px;
+    text-align: center;
+}
+
+.yoyo{
+    margin-left: 150px;
+}
